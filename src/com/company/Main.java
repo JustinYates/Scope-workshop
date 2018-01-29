@@ -2,7 +2,7 @@ package com.company;
 
 public class Main {
     String membervariable = "i am a member variable, i have class level scope";
-    Main main = new Main();
+    Main.main = new Main();
 
     public static void main(String[] args) {
 
@@ -47,6 +47,7 @@ public class Main {
             System.out.println("memberInt *= 2" + memberInt);
             System.out.println("localInt *= 2" + localInt);
             Count++;
+
         }
     }
 }
